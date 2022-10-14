@@ -1,4 +1,2 @@
 [rnb]
-172.31.44.11 ansible_user=ubuntu
-172.31.43.220 ansible_user=ubuntu
-172.31.43.182 ansible_user=ubuntu
+172.31.35.201 ansible_user=ubuntu
