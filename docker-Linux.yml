@@ -1,0 +1,16 @@
+---
+- name: Install Docker on Amazon linux
+  hosts: rnb
+  become: True
+  tasks:
+    
+     - name: Install Docker
+       yum:
+        name: docker
+        state: latest
+
+     - name: Start & Enable docker
+       systemd:
+         name: docker
+         state: started
+         enabled: yes
